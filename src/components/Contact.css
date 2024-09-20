@@ -1,0 +1,50 @@
+.contact {
+    padding: 50px
+}
+
+ .img_deg3 {
+    width: 50px;
+    padding: 10px;
+    
+}
+.img_deg4 {
+    width: 50px;
+    padding: 10px;
+}
+.img_deg5 {
+    width: 50px;
+    padding: 10px;
+}
+
+
+
+.contact h2 {
+    font-size: 40px;
+    font-weight: 1000;
+    -webkit-text-stroke: 1px black;
+    color: #e8dd78; 
+    text-shadow:
+    -3px 2px 0px #000,
+    0px 1px 1px #000,  
+     0px 1px 1px #000,
+     0px 1px 1px #000,
+      0px 1px 1px #000;
+}
+
+.contactLink {
+    font-size: 30px;
+    font-weight: 1000;
+    -webkit-text-stroke: 1px black;
+    color: #2db29f; 
+    text-shadow:
+       -3px 2px 0px #000,
+     0px 1px 1px #000,  
+      0px 1px 1px #000,
+      0px 1px 1px #000,
+       0px 1px 1px #000;
+}
+
+.contactLink {
+    display: block;
+    padding: 0;
+}

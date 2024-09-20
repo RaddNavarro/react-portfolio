@@ -1,0 +1,49 @@
+.wrapper {
+    margin: 50px auto;
+    
+}   
+
+
+.text-bx {
+    padding: 30px;
+    width: 40%;
+    left: 60rem;
+    bottom: 15rem;
+    border: 2px solid black;
+    border-radius: 50px;
+    position:relative;
+    background-color: #ffd575;
+    box-shadow: -10px 5px #201b1b;    
+    
+}
+
+.text-bx h2 {
+    font-size: 65px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    line-height: 1;
+    margin-bottom: 20px;
+    display: block;
+    -webkit-text-stroke: 1px black;
+    color: #2db29f; 
+    text-shadow:
+       -3px 2px 0px #000,
+     0px 1px 1px #000,  
+      0px 1px 1px #000,
+      0px 1px 1px #000,
+       0px 1px 1px #000;
+}
+
+.img_deg2 {
+    position:relative;
+    left: 10rem;
+    top: 10rem;
+    -webkit-filter: drop-shadow(-10px 2px 0 black)
+    drop-shadow(-2px 2px 0 black);
+    filter: drop-shadow(-5px 5px 0 black) 
+    drop-shadow(-10px 5px 0 black);
+}
+
+
+
+

@@ -1,0 +1,31 @@
+.projects {
+    padding: 80px 0;
+    position: relative;
+    background-color: #e6ffb2;
+}
+
+.projects h2 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    -webkit-text-stroke: 1px black;
+    color: #2db29f; 
+    text-shadow:
+       -3px 2px 0px #000,
+     0px 1px 1px #000,  
+      0px 1px 1px #000,
+      0px 1px 1px #000,
+       0px 1px 1px #000;
+
+}
+
+.projects p {
+    color: #212a3c;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px auto 30px auto;
+    text-align: center;
+    width: 56%;
+}
+

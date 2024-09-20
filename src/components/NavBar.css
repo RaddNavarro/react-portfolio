@@ -1,0 +1,96 @@
+a {
+    text-decoration: none;
+}
+
+header {
+    padding: 0;
+}
+.container {
+    
+    width: 100%;
+    
+    
+    
+}
+
+.container nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+    /* justify-content: space-between; */
+    margin: 0.5em;
+    margin-top: 1rem;
+    margin-left: -15rem;
+    
+}
+
+.container nav .title h1 {
+    color: #212a3c;
+    font-size: 30px;
+    font-weight: 1000;
+    
+    
+}
+.container .nav-link {
+    display: flex;
+    font-size: 1em;
+    padding: 0.95em;
+    
+    
+}
+
+.container .nav-link li {
+    list-style: none;
+    padding: 0rem;    
+    left: 23rem;
+    margin-top: 1.5rem;
+    position: relative;
+}
+
+.container ul li a {
+    
+    font-size: 1rem;
+    padding-left: 5rem;
+    font-weight: 1000;
+    display: block;
+    color: #212a3c;
+    
+   
+}
+
+.container ul li a:hover {
+    
+    font-size: 1rem;
+    padding-left: 5rem;
+    font-weight: 1000;
+    display: block;
+    -webkit-text-stroke: 1px black;
+    color: #e8dd78; 
+    text-shadow:
+       0px 2px 0 #000,
+     1px 1px 0 #000,  
+      1px 1px 0 #000,
+      1px 1px 0 #000,
+       1px 1px 0 #000;
+    
+   
+}
+
+.container ul li.active a {
+    font-size: 1rem;
+    padding-left: 5rem;
+    font-weight: 1000;
+    display: block;
+    -webkit-text-stroke: 1px black;
+    color: #e8dd78;
+    text-shadow:
+       0px 2px 0 #000,
+     1px 1px 0 #000,  
+      1px 1px 0 #000,
+      1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+body {
+    background-color: #f9f4ec;
+}
