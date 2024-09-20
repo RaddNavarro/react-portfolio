@@ -1,0 +1,59 @@
+.bands {
+    padding: 0 0 50px 0;
+    position: relative;
+    background-color: #ff8e75;
+}
+
+.bands-bx {
+    background: #e6ffb2;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: 60px;
+    border: 2px solid #201b1b;
+    box-shadow: -15px 5px #201b1b;    
+}
+
+.bands h2 {
+    font-size: 45px;
+    font-weight: 700;
+    -webkit-text-stroke: 1px black;
+    color: #2db29f; 
+    text-shadow:
+       -3px 2px 0px #000,
+     0px 1px 1px #000,  
+      0px 1px 1px #000,
+      0px 1px 1px #000,
+       0px 1px 1px #000;
+}
+
+.bands h5 {
+    font-weight: 700;
+    -webkit-text-stroke: 1px black;
+    color: #e8dd78; 
+    text-shadow:
+       0px 2px 0 #000,
+     1px 1px 0 #000,  
+      1px 1px 0 #000,
+      1px 1px 0 #000,
+       1px 1px 0 #000;
+}
+
+.bands p {
+    color: #212a3c;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    margin: 14px 0 75px 0;
+}
+
+.bands-slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.bands-slider .item img {
+    width: 50%;
+    margin: 0 auto 15px auto;
+}

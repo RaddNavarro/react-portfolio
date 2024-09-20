@@ -1,0 +1,110 @@
+    const responsive = {
+        superLargeDesktop: {
+          // the naming can be any, depends on you.
+          breakpoint: { max: 4000, min: 3000 },
+          items: 5
+        },
+        desktop: {
+          breakpoint: { max: 3000, min: 1024 },
+          items: 3
+        },
+        tablet: {
+          breakpoint: { max: 1024, min: 464 },
+          items: 2
+        },
+        mobile: {
+          breakpoint: { max: 464, min: 0 },
+          items: 1
+        }
+      };
+
+      return (
+        <section className='projects' id="projects">
+            <Container>
+                <Row>
+                    <Col>
+                        <div className='projects-bx'>
+                            <h2>
+                                Projects
+                            </h2>
+                            <p>
+                              Hey, this is a collection of my projects
+                            </p>
+                            <Carousel responsive={responsive} infinite={true} className='projects-slider'>
+                              <div className='item'>
+                                <img src='' alt="Image" />
+                                <h5>Project: LeapYear</h5>
+                              </div>
+                              <div className='item'>
+                                <img src='' alt="Image" />
+                                <h5>Can't Help Myself</h5>
+                              </div>
+                              <div className='item'>
+                                <img src='' alt="Image" />
+                                <h5>Socius</h5>
+                              </div>
+                              <div className='item'>
+                                <img src='' alt="Image" />
+                                <h5>HTMLCSSJS Exercise Website</h5>
+                              </div>
+
+                            </Carousel>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </section>
+      )
+
+
+      const projects = [
+    {
+      title: "Project: Leap Year",
+      description: "A 2D game that implements the Lancer TRPG Mechanincs into an action game.",
+      imgUrl: projImg1,
+
+    },
+    {
+      title: "Socius",
+      description: "A short film about the main character quesitoning if his friends are still truly friends",
+      imgUrl: projImg2,
+
+    },
+    {
+      title: "Can't Help Myself",
+      description: "An Animatic about the main character who can't seem to stop helping her classmates works.",
+      imgUrl: projImg3,
+
+    },
+    {
+      title: "HTMLCSSJS",
+      description: "Rad's first portfolio website lmao",
+      imgUrl: projImg4,
+
+    },
+
+
+  ];
+
+  return (
+    <section className='projects' id="projects">
+      <Container>
+        <Row>
+          <Col>
+            <h2>Projects</h2>
+            <p>Hey, these are my projects.</p>
+            <Row>
+              {
+                projects.map((project, index) => {
+                  return (
+                    <ProjectCards key={index} {...project
+                    }/>
+                  )
+                })
+              }
+            </Row>
+          </Col>
+        </Row>
+      </Container>
+    </section>
+  )
